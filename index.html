@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Bio</title> 
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />  
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <style>
+        body { 
+            background-image:url("assets/images/background.jpg");
+            background-size: cover;
+            font-family: 'Quattrocentor', cursive;
+            font-size: 12px;
+            min-zoom: 1.0;
+            -ms-content-zooming: zoom;
+            -ms-scroll-rails: none;
+            -ms-content-zoom-limit-min: 70%;
+        }
+
+        .header {
+            height:68px; 
+            background-color: #FFFFFF; 
+            z-index: 10; 
+            margin: 0 auto;
+        }
+
+        .blog {
+            width: 50%; 
+            background-color: white;
+            overflow: auto; 
+            position: fixed; 
+            left: 25%; 
+            right: 25%;
+        }
+     
+        #name {
+            background-color: teal;
+            position: fixed;
+        }
+
+        .name_layout {
+            float: left; 
+            font-size: 1px; 
+            background-color: teal";
+        }
+
+        button:hover {
+            background-color: rgb(131, 255, 249);
+        }
+        
+        #name:hover {
+            background-color: rgb(131, 255, 249);
+        }
+
+        .clearfix {
+         overflow: auto;
+        }
+
+        .clearfix:after {
+        content: " "; /* Older browser do not support empty content */
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+        }
+}
+
+    </style>
+
+
+</head>
+<body>
+    <!-- Image and text -->
+
+    <div class="header"> 
+        <div style="margin: 0 auto; width:50%;">
+            <p class="name_layout">
+                <button type="button" class="btn" id="name" style=" font-size: 28px; height: 65px; color: black" disabled>
+                    <i class="fas fa-chess-rook" style="margin:10px"> Ka Lun Wong </i>
+                </button>
+            </p>
+            
+             <div style="float: right; font-size: 50px;">
+                <a href="about.html"><button type="button" class="btn" style="margin-bottom: 25px">About</button></a>   
+                <a href="portfolio.html"><button type="button" class="btn"  style="margin-bottom: 25px">Portfolio</button></a>   
+                <a href="contact.html"><button type="button" class="btn"  style="margin-bottom: 25px">Contact</button></a>    
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <section class="blog">
+            <h1>About me </h1>
+            
+            <hr>
+            
+            <div>
+                <img src="assets/images/cat.png" style="float:left; margin-right: 5px"/>
+                
+                <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed lectus mi. Curabitur imperdiet ante id lacus facilisis, ac finibus ipsum volutpat. Nulla vel libero massa. Cras in elit iaculis elit congue posuere nec in arcu. Phasellus eget justo non nunc dapibus dignissim eu at lorem. Donec sollicitudin felis ac nulla efficitur gravida imperdiet id turpis. Proin auctor dui nisl, luctus elementum tellus consequat fringilla. Vestibulum interdum odio vitae commodo varius. Aliquam eleifend, sem ut commodo fringilla, nisi tortor finibus magna, venenatis posuere urna orci id arcu. Nunc sed sapien sit amet nisi tincidunt scelerisque a non velit.
+                     Donec facilisis accumsan sapien et lacinia. In interdum aliquet tincidunt. Ut in velit nec tellus laoreet posuere non vitae erat. Proin viverra lobortis elit in bibendum. Nulla posuere augue ullamcorper mi feugiat feugiat. Ut blandit justo at metus facilisis rutrum non eget quam. Pellentesque et porta mauris. Aliquam in cursus felis, vitae placerat dui. Nam nibh justo, pharetra eget lacus vel, ullamcorper mattis est. Sed sodales rhoncus dui, vel tincidunt nunc. Proin sagittis purus iaculis sem gravida, vestibulum interdum leo dictum. Aliquam eget rhoncus mauris. Integer tempus orci eu felis fermentum, sed efficitur sapien rutrum.                        
+                     Pellentesque dignissim facilisis ante pretium porttitor. Sed vitae finibus velit. Phasellus id neque accumsan, tempus sem in, convallis tellus. Donec aliquam, libero a facilisis facilisis, neque nunc pulvinar justo, sed elementum massa felis in velit. Donec sit amet ex urna. Sed porta ut est id malesuada. Nam suscipit hendrerit metus, rutrum eleifend mauris consectetur non. 
+                </p>
+            </div>
+
+    </section>
+</body>
+</html>
