@@ -1,10 +1,6 @@
 body { 
     background-image:url("assets/images/background.jpg");
     background-size: cover;
-    min-zoom: 1.0;
-    -ms-content-zooming: zoom;
-    -ms-scroll-rails: none;
-    -ms-content-zoom-limit-min: 70%;
 }
 
 p {
@@ -24,7 +20,7 @@ p {
     width: 50%; 
     background-color: #ffffff;
     overflow: auto; 
-    position: fixed; 
+    position: relative; 
     left: 25%; 
     right: 25%;
     padding: 20px;
