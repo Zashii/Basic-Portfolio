@@ -17,14 +17,14 @@ p {
 }
 
 .blog {
-    width: 50%; 
+    width: 100%; 
     background-color: #ffffff;
     overflow: auto; 
     position: relative; 
-    left: 25%; 
-    right: 25%;
     padding: 20px;
     border: 2px solid #dddddd;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 #name {
@@ -37,6 +37,7 @@ p {
     padding-left: 40px; 
     padding-right: 40px; 
     color: white;
+    left: 17%;
 }
 
 .name_layout {
